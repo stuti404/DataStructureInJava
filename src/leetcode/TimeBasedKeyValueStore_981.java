@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.TreeMap;
 
-public class TimeBasedKeyValueStore981 {
+public class TimeBasedKeyValueStore_981 {
     class TimeMap {
         Map<String, TreeMap<Integer, String>> M;
 

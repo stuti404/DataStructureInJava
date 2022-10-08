@@ -1,10 +1,9 @@
 package leetcode;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class AddOneRowtoTree623 {
+public class AddOneRowtoTree_623 {
     public class TreeNode {
       int val;
       TreeNode left;
