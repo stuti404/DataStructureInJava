@@ -1,7 +1,10 @@
 package HackerBlock;
 
+import java.util.Scanner;
+
 public class Sumofoddplacedandevenplaceddigits {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         int n = 4568;
         int odd = 0;
         int even = 0;
@@ -20,4 +23,8 @@ public class Sumofoddplacedandevenplaceddigits {
         System.out.println(odd);
         System.out.println(even);
     }
+
+
+
+
 }
