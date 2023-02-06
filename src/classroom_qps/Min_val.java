@@ -14,4 +14,5 @@ public class Min_val {
         }
         return min;
     }
+
 }
