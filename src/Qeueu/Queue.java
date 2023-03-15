@@ -1,7 +1,9 @@
+package Qeueu;
+
 public class Queue {
-    private int[]arr;
-    private int size; // top
-    private int front;// element kaha rkhna h
+    protected int[]arr;
+    protected int size; // top
+    protected int front;// element kaha rkhna h
     public Queue(){
         arr = new int[5];
         size =0;
@@ -23,7 +25,7 @@ public class Queue {
     }
     public void Enqueue(int item)throws Exception{
         if (isFull()){
-            throw new Exception("Queue is full");
+            throw new Exception("Qeueu.Queue is full");
         }
         int idx = (front+size)%arr.length;
         arr[idx]=item;
@@ -31,7 +33,7 @@ public class Queue {
     }
     public int Dequeue() throws Exception{
         if (isEmpty()){
-            throw new Exception("Queue is empty");
+            throw new Exception("Qeueu.Queue is empty");
         }
         int val = arr[front];
         front = (front+1)%arr.length;
@@ -40,7 +42,7 @@ public class Queue {
     }
     public int GetFront() throws Exception{
         if (isEmpty()){
-            throw new Exception("Queue is empty");
+            throw new Exception("Qeueu.Queue is empty");
         }
         int val = arr[front];
         return val;

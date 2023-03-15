@@ -1,3 +1,5 @@
+package Qeueu;
+
 public class QeueuClient {
     public static void main(String[] args) throws Exception {
         Queue qq = new Queue();
